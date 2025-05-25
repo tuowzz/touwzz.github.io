@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>กำลังพาไปยัง TikTok...</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>กำลังพาคุณไปยังตะกร้า TikTok...</title>
 
   <!-- Facebook Pixel -->
   <script>
@@ -13,11 +13,11 @@
     if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
     n.queue=[];t=b.createElement(e);t.async=!0;
     t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}
-    (window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
-
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    
     fbq('init', '127978927946856');
-    fbq('track', 'Purchase', {value: 0.00, currency: 'THB'});
+    fbq('track', 'Purchase', {{value: 0.00, currency: 'THB'}});
   </script>
   <noscript>
     <img height="1" width="1" style="display:none"
@@ -53,35 +53,35 @@
             var a = document.getElementsByTagName("script")[0];
             a.parentNode.insertBefore(o, a);
         };
-        ttq.load('D0EVS2JC77U9C23772EG');  // ← TikTok Pixel ID ของคุณ
+        ttq.load('D0EVS2JC77U9C23772EG');
         ttq.page();
         ttq.track('CompletePayment');
     }(window, document, 'ttq');
   </script>
 
-  <!-- Redirect -->
   <script>
     setTimeout(() => {
       window.location.href = "https://vt.tiktok.com/ZShcWN8p6";
-    }, 1500);
+    }, 2500); // ดีเลย์ 2.5 วินาที เพื่อให้ Pixel ยิงทัน
   </script>
 
   <style>
-    body {
+    body {{
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
       font-family: sans-serif;
       background-color: #fff9f0;
-    }
-    h1 {
+      margin: 0;
+    }}
+    h1 {{
       font-size: 22px;
       color: #333;
-    }
+    }}
   </style>
 </head>
 <body>
-  <h1>กำลังพาคุณไปยัง TikTok...</h1>
+  <h1>กำลังพาคุณไปยังตะกร้า TikTok...</h1>
 </body>
 </html>
